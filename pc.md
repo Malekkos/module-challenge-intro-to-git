@@ -11,6 +11,7 @@ Now that you are all set up, it's time to learn a little more about the tools of
 4. What is the purpose of a Pull Request?
 A pull request is the starting point for inputting the code you had just changed into the main branch. Pull request are, in a way, presenting everything you've done so far to your lead or colleagues and asking them to review it. Once review is complete, and there is no noticable bugs or issues, it will be combined with the main branch.
 5. What is the command you can use to switch between branches? For example you are working on the FIRSTNAME-LASTNAME branch and you want to switch back to main.
+Given the provided circumstance, I would type 'git checkout main'.
 6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do?
 7. What is a merge conflict?
 8. How do you resolve a merge conflict?
