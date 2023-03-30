@@ -7,6 +7,7 @@ Now that you are all set up, it's time to learn a little more about the tools of
 2. What is the difference between Git and GitHub?
 ~GitHub is tha place with which we will store data that we've changed using Git. This is typically done with the intention that we would be collaborating with other developers on one peice of code.
 3. Why do we create a branch?
+~We create branches in the interest of preserving the integrity of the main branch should something horrible happen. Like, should there be some major bug due to a feature added or a change made, it makes things significantly easier to check the history of the branches to see which one is causing the issues.
 4. What is the purpose of a Pull Request?
 5. What is the command you can use to switch between branches? For example you are working on the FIRSTNAME-LASTNAME branch and you want to switch back to main.
 6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do?
