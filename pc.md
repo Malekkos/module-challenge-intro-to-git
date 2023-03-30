@@ -17,3 +17,4 @@ Git fetch will download other commits and files from a repository for you to per
 7. What is a merge conflict?
 A merge conflict is something that happens when two people make changes to the same line/file. Also, it could be a line you changing/working on was deleted in someone elses commit. This would create a merge conflict.
 8. How do you resolve a merge conflict?
+In order to resolve a merge conflict, theres a few methods. First, you'd find the trouble maker in your text editor(eg nano or VSCode) and decide whether you want to keep your change, the other parties change, or resolve to making a new commit. To find the issue, it will be highlighted with these indicators ; <<<<< HEAD ======= >>>>>>> branch-a. Make sure to delete this indicators after making the change.
