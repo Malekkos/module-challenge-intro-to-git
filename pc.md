@@ -15,4 +15,5 @@ Given the provided circumstance, I would type 'git checkout main'.
 6. Explain the difference between `git fetch`, `git merge` and `git pull`. What does each command do?
 Git fetch will download other commits and files from a repository for you to peruse, typically to see what changes have been made. Git merge will take the files you 'fetched', otherwise known as multiple commits, and merge them together into one history. Git pull executes the same way as Git fetch, but this time, it will automatically execute git merge as well.
 7. What is a merge conflict?
+A merge conflict is something that happens when two people make changes to the same line/file. Also, it could be a line you changing/working on was deleted in someone elses commit. This would create a merge conflict.
 8. How do you resolve a merge conflict?
